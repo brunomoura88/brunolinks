@@ -159,3 +159,12 @@ footer {
   text-align: center;
   font-size: 14px;
 }
+/* media queries */
+@media (min-width: 768px) {
+  :root {
+    --bg-url: url(./assets/bg-desktop.jpg);
+  }
+  .light {
+    --bg-url: url(./assets/bg-desktop-light.jpg);
+  }
+}
